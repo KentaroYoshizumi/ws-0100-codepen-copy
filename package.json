@@ -1,14 +1,14 @@
 {
-  "name": "codepen-repoduce",
+  "name": "codepen-copy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass stylesheets/sass/index.sass stylesheets/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "version.2017.1.0@gmail.com (https://github.com/version-1)",
+  "author": "yoshizumi",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   }
 }
